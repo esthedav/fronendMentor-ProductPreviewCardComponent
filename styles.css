@@ -78,6 +78,7 @@ p
 .product-info__name
 {
     font-family: var(--Fraunces);
+    font-size: 1.7rem;
 }
 .product-info__details
 {
