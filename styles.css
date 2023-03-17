@@ -26,14 +26,18 @@
 }
 body
 {
-    height: 100vh;
-    width: 100%;
-    margin-top: auto;
     font-family: var(--Montserrat);
     font-size: var(--paragraph);
     background-color: var(--Cream);
 }
-/* Info parrafos 25px de separación */
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Info párrafos 25px de separación */
 p
 {
     padding: 25px 0;
@@ -121,16 +125,6 @@ p
     margin-left: 14px;
     font-weight: bolder;
     color: var(--White);
-}
-.attribution
-{
-    font-size: 11px; text-align: center;
-    background-color: var(--Dark-grayish-blue);
-    color: var(--White);
-}
-.attribution a
-{
-    color: var(--Very-dark-blue);
 }
 @media (min-width: 500px) 
 {
